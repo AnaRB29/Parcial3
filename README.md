@@ -12,6 +12,6 @@
 
 **Número de Práctica:** [Practica 2]
 
-**Sitio desplegado en GitHub Pages:** [Enlace a tu sitio en GitHub Pages](http://127.0.0.1:5500/practica1.html)
+**Sitio desplegado en GitHub Pages:** [Enlace a tu sitio](https://anarb29.github.io/Parcial3/practica2)
 
 **Archivo principal JavaScript:** [Enlace al código fuente](/eventos.js)

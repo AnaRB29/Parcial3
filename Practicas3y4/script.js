@@ -1,30 +1,31 @@
 document.addEventListener("DOMContentLoaded", function () {
     const themeToggle = document.getElementById("theme-toggle");
-    const container = document.getElementById("container");
 
     // Obtén el tema actual del almacenamiento local (si existe)
     const currentTheme = localStorage.getItem("theme");
 
-    // Establece el tema guardado en el almacenamiento local o el predeterminado
-    if (currentTheme) {
-        container.classList.add(currentTheme);
-    } else {
-        container.classList.add("light-theme");
-    }
-
-    // Función para cambiar el tema
+    // Función para cambiar el tema y el texto del botón
     function toggleTheme() {
-        if (container.classList.contains("light-theme")) {
-            container.classList.remove("light-theme");
-            container.classList.add("dark-theme");
+        if (document.body.classList.contains("light-theme")) {
+            document.body.classList.remove("light-theme");
+            document.body.classList.add("dark-theme");
+            themeToggle.textContent = "Cambiar a Tema Claro";
             localStorage.setItem("theme", "dark-theme");
         } else {
-            container.classList.remove("dark-theme");
-            container.classList.add("light-theme");
+            document.body.classList.remove("dark-theme");
+            document.body.classList.add("light-theme");
+            themeToggle.textContent = "Cambiar al Tema Oscuro";
             localStorage.setItem("theme", "light-theme");
         }
     }
 
-    // Escucha el evento de clic en el botón para cambiar el tema
+    // Establece el texto del botón según el tema actual
+    if (currentTheme === "dark-theme") {
+        themeToggle.textContent = "Cambiar a Tema Claro";
+    } else {
+        themeToggle.textContent = "Cambiar al Tema Oscuro";
+    }
+
+    // Escucha el evento de clic en el botón para cambiar el tema y el texto
     themeToggle.addEventListener("click", toggleTheme);
 });

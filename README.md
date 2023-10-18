@@ -6,7 +6,7 @@
 
 **Sitio desplegado en GitHub Pages:** [Enlace a tu sitio en GitHub Pages](https://anarb29.github.io/Parcial3/practica1)
 
-**Archivo principal JavaScript:** [Enlace al código fuente](/main.js)
+**Archivo principal JavaScript:** [Enlace al código fuente](/Practica1/main.js)
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -14,7 +14,7 @@
 
 **Sitio desplegado en GitHub Pages:** [Enlace a tu sitio](https://anarb29.github.io/Parcial3/practica2)
 
-**Archivo principal JavaScript:** [Enlace al código fuente](/eventos.js)
+**Archivo principal JavaScript:** [Enlace al código fuente](/Practica2/eventos.js)
 
 **Link desde Live Server:** [Link](http://127.0.0.1:5500/practica2.html)
 
@@ -24,7 +24,7 @@
 
 **Sitio desplegado en GitHub Pages:** [Enlace a tu sitio](https://anarb29.github.io/Parcial3/practica3)
 
-**Archivo principal JavaScript:** [Enlace al código fuente](/script.js)
+**Archivo principal JavaScript:** [Enlace al código fuente](/Practicas3/styles.css)
 
 **Link desde Live Server:** [Link](http://127.0.0.1:5500/Practicas3y4/practica3.html)
 
@@ -34,6 +34,6 @@
 
 **Sitio desplegado en GitHub Pages:** [Enlace a tu sitio](https://anarb29.github.io/Parcial3/practica4)
 
-**Archivo principal JavaScript:** [Enlace al código fuente]()
+**Archivo principal JavaScript:** [Enlace al código fuente](/Practica4/funciones.js)
 
-**Link desde Live Server:** [Link]()
+**Link desde Live Server:** [Link](http://127.0.0.1:5500/Practica4/reloj.html)

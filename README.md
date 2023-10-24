@@ -37,3 +37,13 @@
 **Archivo principal JavaScript:** [Enlace al código fuente](/Practica4/funciones.js)
 
 **Link desde Live Server:** [Link](http://127.0.0.1:5500/Practica4/reloj.html)
+
+----------------------------------------------------------------------------------------------------------------------
+
+**Número de Práctica:** [Practica 5]
+
+**Sitio desplegado en GitHub Pages:** [Enlace a tu sitio](https://anarb29.github.io/Parcial3/practica5)
+
+**Archivo principal:** [Enlace al código fuente](/Practica5/index.html)
+
+**Link desde Live Server:** [Link](http://127.0.0.1:5500/Practica5/index.html)

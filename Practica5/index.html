@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario con Validaciones</title>
+  <link rel="icon" href="https://i.pinimg.com/originals/24/f5/bb/24f5bb855abcdc8c4a8b9cb779fba766.png" type="image/x-icon">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 80px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    label {
+      display: block;
+      margin: 10px 0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select,
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    select {
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      background-color: #691369;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+  <script>
+    function validarFormulario() {
+    // Validación del campo de texto
+    const nombre = document.getElementById("nombre").value;
+    if (nombre.trim() === "") {
+      alert("Por favor, ingresa un nombre.");
+      return false;
+    }
+
+    // Validación del campo de correo electrónico
+    const correo = document.getElementById("correo").value;
+    const correoPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    if (!correo.match(correoPattern)) {
+      alert("Por favor, ingresa una dirección de correo electrónico válida.");
+      return false;
+    }
+
+    // Validación de la selección de opciones
+    const seleccion = document.getElementById("seleccion").value;
+    if (seleccion === "0") {
+      alert("Por favor, selecciona una opción.");
+      return false;
+    }
+
+    // Validación del campo de contraseña
+    const contrasena = document.getElementById("contrasena").value;
+    if (contrasena.length < 8) {
+      alert("La contraseña debe contener al menos 8 caracteres.");
+      return false;
+    }
+
+    // Simulación de envío de datos (puedes reemplazar esto con tu lógica de envío real)
+    alert("Enviando datos...");
+    setTimeout(function() {
+      alert("Formulario enviado con éxito.");
+    }, 2000); // Simulación de 2 segundos
+
+    return false; // Evita el envío real del formulario
+  }
+  </script>
+</head>
+<body>
+  <form onsubmit="return validarFormulario()">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required><br>
+
+    <label for="correo">Correo Electrónico:</label>
+    <input type="email" id="correo" required><br>
+
+    <label for="seleccion">Selecciona un rango de edad:</label>
+    <select id="seleccion">
+      <option value="0">Selecciona...</option>
+      <option value="opcion1">15 a 18 años</option>
+      <option value="opcion2">19 a 25 años</option>
+      <option value="opcion3">26 a 40 años</option>
+      <option value="opcion4">40 a 60 años</option>
+      <option value="opcion5">+60 años</option>
+    </select><br>
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" required><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>

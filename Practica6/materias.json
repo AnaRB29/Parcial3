@@ -1,0 +1,28 @@
+[
+    {
+        "nombreMateria": "Inteligencia artificial para videojuegos",
+        "nombreDocente": "Juan José López",
+        "descripcion": "Como estudiantes aprendemos a programar personajes no jugadores (NPCs) que puedan tomar decisiones autónomas, adaptarse a las acciones del jugador y crear un entorno de juego más inmersivo. "
+    },
+    {
+        "nombreMateria": "Simulación de físicas para videojuegos",
+        "nombreDocente": "Ricardo Rodríguez",
+        "descripcion": "La simulación de físicas para videojuegos es una materia que se centra en enseñar cómo recrear y aplicar principios físicos en entornos virtuales para lograr una representación realista del movimiento y las interacciones en los juegos."
+    },
+    {
+        "nombreMateria": "Desarrollo de interfaces para apps moviles",
+        "nombreDocente": "Diana Rodríguez",
+        "descripcion": "El desarrollo de interfaces para aplicaciones móviles es una materia que se enfoca en enseñar cómo diseñar y crear interfaces de usuario efectivas y atractivas para aplicaciones móviles."
+    },
+    {
+        "nombreMateria": "Proyecto Semestral VR",
+        "nombreDocente": "Rodrigo Saco",
+        "descripcion": "Esta una materia que se enfoca en enseñar cómo diseñar, crear y programar videojuegos que se experimenten en entornos inmersivos de realidad virtual. Aprendemos a utilizar tecnologías y hardware de VR, como auriculares y controladores específicos, para llevar a cabo los proyectos."
+    },
+    {
+        "nombreMateria": "Desarrollo Web",
+        "nombreDocente": "Jonathan Miranda",
+        "descripcion": "El desarrollo web es una materia que se enfoca en enseñar cómo diseñar, crear y mantener sitios web y aplicaciones web. En esta disciplina, comprendemos como programar en lenguajes como HTML, CSS y JavaScript para construir interfaces de usuario interactivas y atractivas."
+    }
+    
+]

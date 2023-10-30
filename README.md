@@ -50,10 +50,20 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
-**Número de Práctica:** [Practica 5]
+**Número de Práctica:** [Practica 6]
 
 **Sitio desplegado en GitHub Pages:** [Enlace a tu sitio](https://anarb29.github.io/Parcial3/Practica6/materias.html)
 
 **Archivo principal JavaScript:** [Enlace al código fuente](/Practica6/materias.js)
 
 **Link desde Live Server:** [Link](http://127.0.0.1:5500/Practica6/materias.html)
+
+----------------------------------------------------------------------------------------------------------------------
+
+**Número de Práctica:** [Practica 7]
+
+**Sitio desplegado en GitHub Pages:** [Enlace a tu sitio](https://anarb29.github.io/Parcial3/Prcatica7/practicaAPI.html)
+
+**Archivo principal JavaScript:** [Enlace al código fuente](/Prcatica7/carga.js)
+
+**Link desde Live Server:** [Link](http://127.0.0.1:5500/Prcatica7/practicaAPI.html)
